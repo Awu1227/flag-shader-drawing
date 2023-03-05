@@ -9,6 +9,7 @@ module.exports = {
     hashFunction: "xxhash64",
     filename: "bundle.[contenthash].js",
     path: path.resolve(__dirname, "../dist"),
+    publicPath: "https://awu1227.github.io/flag-shader-drawing/",
   },
   devtool: "source-map",
   plugins: [
