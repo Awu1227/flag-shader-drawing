@@ -22,7 +22,9 @@ const scene = new THREE.Scene();
  */
 const textureLoader = new THREE.TextureLoader();
 
-const flagTexture = textureLoader.load("/textures/flag-china.jpg");
+const flagTexture = textureLoader.load(
+  "https://awu1227.github.io/flag-shader-drawing/textures/flag-china.jpg"
+);
 
 /**
  * Test mesh
